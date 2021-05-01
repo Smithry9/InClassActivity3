@@ -3,10 +3,12 @@ def calc(a, b):
     subtract = a - b
     mult = a * b
     divide = a / b
-    print(str(a) + " + " + str(b) + " = " + str(add))
-    print(str(a) + " - " + str(b) + " = " + str(subtract))
-    print(str(a) + " * " + str(b) + " = " + str(mult))
-    print(str(a) + " / " + str(b) + " = " + str(divide))
+    answerList = (add, subtract, mult, divide)
+    return answerList
+    #print(str(a) + " + " + str(b) + " = " + str(add))
+    #print(str(a) + " - " + str(b) + " = " + str(subtract))
+    #print(str(a) + " * " + str(b) + " = " + str(mult))
+    #print(str(a) + " / " + str(b) + " = " + str(divide))
 
 
 def userInput():
